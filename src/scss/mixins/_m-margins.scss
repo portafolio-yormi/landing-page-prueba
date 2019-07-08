@@ -1,0 +1,6 @@
+.mt-lg{
+	@include margins (2rem, 0, 0, 0);
+}
+.mt-sm{
+	@include margins (3rem, 0, 0, 0);
+}

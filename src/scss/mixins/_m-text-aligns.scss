@@ -1,0 +1,6 @@
+.text-center{
+	@include  text-align(center);
+}
+.text-justify{
+	@include  text-align(justify);
+}

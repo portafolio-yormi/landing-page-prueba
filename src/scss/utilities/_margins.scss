@@ -1,0 +1,6 @@
+@mixin margins($mt,$mr,$mb,$ml){
+	margin-top: $mt;
+	margin-right: $mr;
+	margin-bottom: $mb;
+	margin-left: $ml;
+}

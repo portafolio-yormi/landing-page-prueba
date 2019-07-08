@@ -1,0 +1,5 @@
+.slider
+	figure
+		.slide(v-for="image in portafolio" v-if="image.type=='slider'")
+			p.caption {{image.caption}}
+			img(:src='image.url')

@@ -1,0 +1,3 @@
+.text-sm{
+	@include texts($font-one,400,1rem,1.5rem, darken($gray,40%));
+}

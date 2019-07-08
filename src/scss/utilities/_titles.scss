@@ -1,0 +1,7 @@
+@mixin titles ($ff, $fw, $fz, $mt, $mb){
+	font-family: $ff;
+	font-weight: $fw;
+	font-size: $fz;
+	margin-top: $mt;
+	margin-bottom: $mb;
+}

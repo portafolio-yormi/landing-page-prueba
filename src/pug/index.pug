@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        script(src='https://cdn.jsdelivr.net/npm/vue')
+        title= htmlWebpackPlugin.options.title
+    body
+        #app
+            //- Menu
+            include /partials/menu.pug
+            //- Slider
+            include /partials/carousel.pug
+            //- .slider
+            //- img(name="slider").slider_img
+
+            //- about
+            .container
+                .grid.mt-lg
+                    .box
+                        h2.title-lg.text-center Lorem ipsum dolor sit amet
+                        hr.separator
+                        h3.title-sm.text-center  Lorem ipsum dolor sit amet
+                        p.text-sm.text-justify.mt-sm  Lorem ipsum dolor sit amet consectetur adipiscing elit parturient ut, sollicitudin magnis proin felis himenaeos vitae magna aliquet curae, tortor egestas libero odio eu luctus cum quis. Enim cubilia facilisis feugiat et ut habitasse per ultricies rutrum tristique neque, arcu consequat nunc leo imperdiet tempus mollis rhoncus lacinia taciti. Nisl ante iaculis mollis non libero nostra gravida et, habitasse ut facilisis praesent fusce class pellentesque Phasellus integer vivamus faucibus orci convallis vestibulum mattis quam, facilisi lectus pharetra viverra dis cub.
+                        
+                        p.text-center.mt-sm
+                            a#link(href="#").link You can learn more about the sample here.
+                            //- hr.separator
+
+                    .box
+                        img(src="../static/img/phone.png", alt="").img.i-response

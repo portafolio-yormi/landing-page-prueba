@@ -1,0 +1,19 @@
+
+.container-fluid, .container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.container {
+  max-width: 90%;
+  /* 2 */
+  padding-right: 10px;
+  /* 3 */
+  padding-left: 10px;
+  /* 3 */
+}

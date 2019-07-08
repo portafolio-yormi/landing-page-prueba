@@ -1,0 +1,6 @@
+.title-lg{
+	@include titles ($font-one, 400, 2rem, 1rem, 1rem);
+}
+.title-sm{
+	@include titles ($font-one, 400, 1.2rem, .5rem, .5rem);
+}
